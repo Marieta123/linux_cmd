@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/myproject_mv.dir/mv.c.o  -o myproject_mv 

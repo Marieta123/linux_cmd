@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marieta/linux_cmd/rm/rm.c
+stdio.h
+-
+dirent.h
+-
+errno.h
+-
+stdlib.h
+-
+string.h
+-
+

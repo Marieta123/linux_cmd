@@ -1,0 +1,7 @@
+/home/marieta/linux_cmd/grep/build/CMakeFiles/install/strip.dir
+/home/marieta/linux_cmd/grep/build/CMakeFiles/install/local.dir
+/home/marieta/linux_cmd/grep/build/CMakeFiles/install.dir
+/home/marieta/linux_cmd/grep/build/CMakeFiles/list_install_components.dir
+/home/marieta/linux_cmd/grep/build/CMakeFiles/rebuild_cache.dir
+/home/marieta/linux_cmd/grep/build/CMakeFiles/edit_cache.dir
+/home/marieta/linux_cmd/grep/build/CMakeFiles/myproject_grep.dir
