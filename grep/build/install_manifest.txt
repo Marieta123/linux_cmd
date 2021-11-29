@@ -1,1 +1,0 @@
-/home/marieta/linux_cmd/bin/myproject_grep
