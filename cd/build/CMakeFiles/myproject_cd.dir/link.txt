@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/myproject_cd.dir/cd.c.o  -o myproject_cd 

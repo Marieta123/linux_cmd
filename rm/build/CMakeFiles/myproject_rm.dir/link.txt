@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/myproject_rm.dir/rm.c.o  -o myproject_rm 
