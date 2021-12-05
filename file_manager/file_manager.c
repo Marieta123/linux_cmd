@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include<sys/types>
+#include <sys/types.h>
 #include <stdlib.h>
 #include <stdbool.h>
 
@@ -26,7 +26,7 @@ switch (comanda_number){
 
    char arg1_cd[100];
 
-   scanf("%s",&arg1_cd);
+   scanf("%s",arg1_cd);
 
 
    pid_t pid = fork();
@@ -43,11 +43,11 @@ switch (comanda_number){
 
         }case 2: {
 
-   char arg1_cp;
+   char arg1_cp[100];
 
-   char arg2_cp;
+   char arg2_cp[100];
 
-   scanf("%s %s",&arg1_cp,&arg2_cp);
+   scanf("%s %s",arg1_cp,arg2_cp);
 
 
    pid_t pid = fork();
@@ -65,9 +65,9 @@ switch (comanda_number){
         }case 3: {
 
 
-   char arg1_rm;
+   char arg1_rm[100];
 
-  scanf("%s",&arg1_rm);
+  scanf("%s",arg1_rm);
 
    pid_t pid = fork();
 
@@ -83,11 +83,11 @@ switch (comanda_number){
 
         }case 4: {
 
-   char arg1_mv;
+   char arg1_mv[100];
 
-   char arg2_mv;
+   char arg2_mv[100];
 
-   scanf("%s %s",&arg1_mv,&arg2_mv);
+   scanf("%s %s",arg1_mv,arg2_mv);
 
    pid_t pid = fork();
 
@@ -104,11 +104,11 @@ switch (comanda_number){
         }case 5: {
 
 
-   char arg1_grep;
+   char arg1_grep[100];
 
-   char arg2_grep;
+   char arg2_grep[100];
 
-   scanf("%s %s",&arg1_grep,&arg2_grep);
+   scanf("%s %s",arg1_grep,arg2_grep);
 
    pid_t pid = fork();
 
