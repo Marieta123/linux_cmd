@@ -5,4 +5,5 @@ add_subdirectory(myproject_mv)
 add_subdirectory(myproject_cp)
 add_subdirectory(myproject_cd)
 add_subdirectory(myproject_grep)
+add_subdirectory(myproject_file_manager)
 
